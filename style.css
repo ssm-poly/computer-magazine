@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.demo-nav{
+    width: 98.7vw;
+    height: 20px;
+    background-color: #c78964;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+}
+
+.demo-nav-links{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    transform: .5;
+}
+
+.demo-nav-links:hover{
+    text-decoration: underline;
+}
+
+.main-navbar{
+    width: 100vw;
+    height: 100px;
+    background-color: #fff;
+}
+
+.image-section{
+    width: 100vw;
+    height: 500px;
+    margin-top: 40px;
+    background-image: url('https://media.licdn.com/dms/image/C4D1BAQExxNUowlVy1Q/company-background_10000/0/1601561300299/seethi_sahib_memorial_polytechnic_college_cover?e=2147483647&v=beta&t=HhKwy4ki00D35GuCXn3C_Auk8NDu-Ve10pnRzqKZ4-A');
+    position: fixed;
+}
+
+.dark-shade{
+    width: 100vw;
+    height: 500px;
+    background-color: #000000;
+    position: fixed;
+    opacity: .5;
+}
+
+.page-main-head{
+    color: #fff;
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+    margin: 300px 0px 0px 0px;
+    font-size: 50px;
+}
+
+.section-one{
+    width: 100vw;
+    height: 617px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    margin: 540px 0px 0px 0;
+}
+
+.main-section{
+    width: 95vw;
+    height: 550px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 55%);
+    margin: 0px 0px 0px 29px;
+    border-radius: 20px;
+}
+
+
+
+.page-sub-head{
+    font-size: 30px;
+    padding: 35px;
+    height: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.magazine-display-container{
+    width: 95vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magazine-display{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.magazine{
+    width: 248px;
+    height: 350px;
+}
+
+.magazine-cover{
+    width: 248px;
+    height: 350px;
+    transition: .7s;
+}
+
+.magazine-cover:hover{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 30px;
+}
+
+
