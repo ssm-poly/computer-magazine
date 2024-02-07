@@ -29,7 +29,7 @@
         <div class="section-one">
             <div class="main-section">
                 <h3 class="page-sub-head">COMPUTER DEPARTMENT MAGAZINE</h3>
-                <img src="./IMAGES/scroll-left.png" >
+                <img src="./IMAGES/scroll-left.png" class="scroll-element" >
                 <div class="magazine-display-container">
                     <!-- magazines display in the display container -->
                     <div class="magazine-display">
@@ -51,7 +51,7 @@
                             </a>
                     </div>
                 </div>
-                <img src="./IMAGES/scroll-right.png" >
+                <img src="./IMAGES/scroll-right.png" class="scroll-element" >
             </div>
         </div>
     </div>
@@ -187,6 +187,10 @@
 }
 
 
+.scroll-element{
+    display:none;
+}
+
 @media screen and (max-width: 600px){
     .demo-nav{
         display: none;
@@ -228,6 +232,10 @@
         padding-left: 838px;
         padding-right: 27px;
     }
+
+    .scroll-element{
+        display:column;
+}
 }
 </style>
 </html>
