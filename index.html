@@ -74,6 +74,58 @@
             currentPage:{vAlign:"bottom", hAlign:"left"}
         });
     })
+    //bytecode
+    $(document).ready(function () {
+        $(".book-1").flipBook({
+      			btnShare : {enabled:false},
+            btnPrint : {
+              hideOnMobile:true,
+              enabled:false
+            },
+            btnDownloadPdf: {
+              hideOnMobile:true,
+              enabled:false
+            },
+            btnToc: {
+              hideOnMobile:true,
+              enabled:false
+            },
+            btnThumbs: {
+              hideOnMobile:true,
+              enabled:false
+            },
+            btnSound: {
+              hideOnMobile:true,
+              enabled:false
+            },
+            btnBookmark: {
+              hideOnMobile:true,
+              enabled:false
+            },
+            btnDownloadPages : {
+              enabled: false,
+              hideOnMobile:true
+            },
+            btnBookmark: {
+            enabled: false,
+            title: "Bookmark",
+            icon: "fas fa-bookmark",
+            icon2: "bookmark"
+        },
+            pdfUrl:'pdf/2019-20.pdf',
+            btnColor:'rgb(255,120,60)',
+            sideBtnRadius:60,
+            sideBtnSize:60,
+            sideBtnBackground:"rgba(0,0,0,.7)",
+            sideBtnColor:'rgb(255,120,60)',
+            lightBox:true,
+            viewMode:"3d",
+            layout:3,
+            btnSound:{vAlign:"top", hAlign:"left"},
+            currentPage:{vAlign:"bottom", hAlign:"left"}
+        });
+    })
+
 
     //codecraft
     $(document).ready(function () {
